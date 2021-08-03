@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div>
         <div className={style.app}>
-          Wedding
+          Wedding!!!
         </div>
       </div>
     );
