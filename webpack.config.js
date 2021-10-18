@@ -61,12 +61,6 @@ module.exports = {
     ]
   },
   plugins: [
-  new GoogleFontsPlugin({
-      fonts: [{
-        family: 'Indie Flower',
-        variants: ['400']
-      }]
-    }),
     new HtmlWebPackPlugin({
       template: './src/html/index.html',
       filename: './index.html'
@@ -76,7 +70,7 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'media/img/', to: 'img' },
-      { from: 'media/fonts/', to: 'fonts' },
+      { from: 'fonts/', to: '' },
       { from: 'favicon.png', to: '' },
     ])
   ]
