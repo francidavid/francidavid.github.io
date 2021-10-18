@@ -16,6 +16,7 @@ body {
 }
 .app {
   margin: auto auto;
+  padding-bottom: 40px;
   max-width: 100%;
   .top_container {
     background-color: #ff6946;
@@ -242,11 +243,21 @@ body {
       td {
         line-height: 20px;
         text-align: center;
+        text-transform: uppercase;
         vertical-align: bottom;
         width: 150px;
         strong {
           font-weight: 600;
-          text-transform: uppercase;
+        }
+        i {
+          font-style: italic; 
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
         }
         .flower {
           width: 60px;
@@ -260,21 +271,47 @@ body {
     color: #f1e6d0;
     width: 100%;
     .content_wrapper {
-      margin: auto auto;
+      .clearfix;
+      margin: 20px auto;
+      padding: 0;
       max-width: 800px;
+      div {
+        display: table-cell;
+      }
       .left_container,
       .right_container {
         box-sizing: border-box;
         padding: 20px;
       }
       .left_container {
-        float: left;
+        width: 160px;
+        position: relative;
         text-align: right;
-        width: 60%;
+        .franci_child_container {
+          bottom: 0;
+          left: 0;
+          position: absolute;
+          .franci_child {
+            width: 150px;
+          }
+        }
+      }
+      >.center_container {
+        border-right: 100px solid #101d47;
+        padding: 40px 20px;
       }
       .right_container {
-        float: right;
-        width: 40%;
+        width: 100px;
+        position: relative;
+        text-align: right;
+        .david_child_container {
+          top: 40px;
+          right: 0;
+          position: absolute;
+          .david_child {
+            width: 150px;
+          }
+        }
       }
       h3 {
         font-family: 'Bely';

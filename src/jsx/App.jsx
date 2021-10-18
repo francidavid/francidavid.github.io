@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import style from './../styles/styles.less';
 
 import franci_david from './../../media/img/franci_david.jpg';
+import franci_child from './../../media/img/franci_child.png';
 import ecuador1 from './../../media/img/ecuador1.jpg';
 import ecuador2 from './../../media/img/ecuador2.jpg';
 import top_center_image from './../../media/img/assets/Asset 4.png';
@@ -50,7 +51,7 @@ class App extends Component {
             <ul>
               <li><a href="#" className={style.active}>FD</a></li>
               <li><a href="#">Location</a></li>
-              <li><a href="#">RSVP</a></li>
+              <li><a href="#">R.S.V.P.</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Mogrotour</a></li>
               <li><a href="#">Info</a></li>
@@ -92,6 +93,9 @@ class App extends Component {
         <div className={style.container_rsvp}>
           <div className={style.content_wrapper}>
             <div className={style.left_container}>
+              <div className={style.franci_child_container}><img src={franci_child} alt="Image" className={style.image + ' ' + style.franci_child} /></div>
+            </div>
+            <div className={style.center_container}>
               <h3>Let's toast together</h3>
               <p>Your presence at our wedding is the greatest gift, should you wish to show further affection, bring a bottle for a toast or your best dancing shoes.</p>
               <h3>R.S.V.P.</h3>
@@ -99,7 +103,7 @@ class App extends Component {
               <div className={style.center_container}><button>Press me!!!</button></div>
             </div>
             <div className={style.right_container}>
-
+              <div className={style.david_child_container}><img src={franci_child} alt="Image" className={style.image + ' ' + style.david_child} /></div>
             </div>
           </div>
         </div>
@@ -109,16 +113,16 @@ class App extends Component {
               <tr>
                 <td>
                   <strong>Fra</strong><br />
-                  +555-call-me<br />
-                  send a snailmail
+                  <i>+555-call-me</i><br />
+                  <i><a href="mailto:abc@example.com">Mail</a></i>
                 </td>
                 <td>
                   <img src={flower} alt="Image" className={style.image + ' ' + style.flower} />
                 </td>
                 <td>
                   <strong>Deivid</strong><br />
-                  +555-don't-call-me<br />
-                  send a snailmail
+                  <i>+555-not-me</i><br />
+                  <i><a href="mailto:abc@example.com">Mail</a></i>
                 </td>
               </tr>
             </tbody>
