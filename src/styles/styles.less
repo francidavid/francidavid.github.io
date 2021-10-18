@@ -10,7 +10,6 @@
   font-family: 'Avenir';
   src: local('Avenir'), url(./../fonts/Avenir.ttc) format('truetype');
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -90,19 +89,24 @@ body {
       padding: 0;
       text-align: center;
       li {
-        color: #cbc0ab;
-        float: left;
-        text-align: center;
-        width: 600/6px;
-        &.active {
-          color: #ff6946;
-          font-weight: 600;
+        a {
+          color: #cbc0ab;
+          cursor: pointer;
+          float: left;
+          text-decoration: none;
+          text-align: center;
+          width: 600/6px;
+          &:hover,
+          &.active {
+            color: #ff6946;
+            font-weight: 900;
+          }
         }
       }
     }
   }
   .container {
-    margin: auto auto 20px auto;
+    margin: 20px auto 20px auto;
     max-width: 600px;
     .clearfix;
     .left_container,
@@ -113,9 +117,11 @@ body {
     }
     .left_container {
       float: left;
+      width: 60%;
     }
     .right_container {
       float: right;
+      width: 40%;
     }
     .center_container {
       margin: auto auto;
@@ -126,7 +132,11 @@ body {
       &.image_franci_david {
         border-top-right-radius: 80px;
       }
-      &.beach {
+      &.ecuador1 {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+      }
+      &.ecuador2 {
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
       }
@@ -136,6 +146,7 @@ body {
       font-family: 'Bely';
       font-size: 40px;
       font-weight: 600;
+      letter-spacing: 0.01em;
       margin-bottom: 20px;
       text-transform: uppercase;
       &.center {
@@ -145,6 +156,7 @@ body {
         padding-left: 60px;
         position: relative;
         z-index: 1;
+        letter-spacing: 0.05em;
         &:before {
           background-image: url('./../../img/assets/Asset 6.png');
           background-repeat: no-repeat;
@@ -162,8 +174,9 @@ body {
     h4 {
       color: #ff6946;
       font-family: 'Bely';
-      font-size: 20px;
+      font-size: 19px;
       font-weight: 600;
+      letter-spacing: 0.01em;
       margin-bottom: 10px;
       text-transform: uppercase;
       &.airplane_header {
@@ -178,7 +191,7 @@ body {
           height: 100%;
           position: absolute;
           right: 0;
-          top: 10px;
+          top: 15px;
           width: 80px;
           z-index: 0;
         }
@@ -187,13 +200,26 @@ body {
     h5 {
       font-family: 'Bely';
       font-weight: 600;
+      letter-spacing: 0.1em;
       margin-bottom: 10px;
       text-transform: uppercase;
     }
     p {
+      font-size: 15px;
       margin-bottom: 20px;
-      line-height: 20px;
+      line-height: 22px;
       font-family: 'Avenir';
+      a {
+        color: #000;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      strong {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
     }
     button {
       background-color: #ff6946;
@@ -212,14 +238,26 @@ body {
     }
     table {
       margin: auto auto;
-      font-weight: 600;
       vertical-align: middle;
+      td {
+        line-height: 20px;
+        text-align: center;
+        vertical-align: bottom;
+        width: 150px;
+        strong {
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+        .flower {
+          width: 60px;
+        }
+      }
     }
   }
   .container_rsvp {
     .clearfix;
     background-color: #ff6946;
-    color: hsl(0, 0%, 90%);
+    color: #f1e6d0;
     width: 100%;
     .content_wrapper {
       margin: auto auto;
@@ -228,19 +266,23 @@ body {
       .right_container {
         box-sizing: border-box;
         padding: 20px;
-        width: 50%;
       }
       .left_container {
         float: left;
-        text-align: right
+        text-align: right;
+        width: 60%;
       }
       .right_container {
         float: right;
+        width: 40%;
       }
       h3 {
-        font-size: 40px;
+        font-family: 'Bely';
+        font-size: 30px;
         font-weight: 600;
         margin-bottom: 20px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
       }
       h4 {
         margin-bottom: 20px;
@@ -261,8 +303,10 @@ body {
         width: 150px;
       }
       p {
-        margin: auto auto;
         color: #000;
+        font-family: 'Avenir';
+        font-size: 15px;
+        line-height: 22px;
         margin-bottom: 20px;
       }
     }
