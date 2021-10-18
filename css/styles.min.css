@@ -148,11 +148,11 @@ table {
 }
 @font-face {
   font-family: 'Bely';
-  src: local('Bely'), url(../media/fonts/Bely.ttf) format('truetype');
+  src: local('Bely'), url(../fonts/Bely.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Avenir';
-  src: local('Avenir'), url(../media/fonts/Avenir.ttc) format('truetype');
+  src: local('Avenir'), url(../fonts/Avenir.ttc) format('truetype');
 }
 body {
   margin: 0;
