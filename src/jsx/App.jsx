@@ -47,7 +47,7 @@ class App extends Component {
         <div className={style.container}>
           <div className={style.navigation_container}>
             <ul>
-              <li>Francesca &amp; David</li>
+              <li className={style.active}>FD</li>
               <li>Location</li>
               <li>RSVP</li>
               <li>Contact</li>
