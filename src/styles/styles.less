@@ -5,70 +5,145 @@ body {
   margin: 0;
   padding: 0;
 }
-.background {
-  background-color: #f1f1f1;
-  background-image: url('../../img/bg.webp');
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  box-sizing: border-box;
-  height: 100%;
-  min-height: 100vh;
-  opacity: 0.5;
-  padding: 30px 30px;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  z-index: 0;
-}
 .app {
   margin: auto auto;
-  padding: 30px 30px;
-  max-width: 600px;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 1;
-  h1 {
-    font-family: Indie Flower, Times New Roman;
-    font-size: 60pt;
-    margin-bottom: 20pt;
-    text-decoration: underline;
-  }
-  label {
-    display: block;
-    font-family: Indie Flower, Times New Roman;
-    font-size: 30pt;
-    line-height: 30pt;
-    margin-bottom: 10pt;
-    vertical-align: middle;
-    .input_container {
-      position: absolute;
-      input {
-        appearance: none;
-        border: 1px solid #ccc;
-        height: 20pt;
-        position: relative;
-        top: 2px;
-        width: 20pt;
-        &:checked:disabled {
-          background-color: #000;
-          &:after {
-            color: #fff;
-            content: '✔';
-            font-size: 14pt;
-            height: 100%;
-            line-height: 20pt;
-            position: absolute;
-            text-align: center;
-            vertical-align: middle;
-            width: 100%;
-          }
-        }
+  max-width: 100%;
+  .top_container {
+    background-color: hsl(13deg 100% 62%);
+    color: #fff;
+    margin: auto auto;
+    h3,
+    h5 {
+      text-align: center;
+      color: hsl(0, 0%, 90%);
+    }
+    h3 {
+      font-size: 40px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+    }
+    .image_container {
+
+      .top_center_image {
+
+      }
+      .left_bottom_image {
+
+      }
+      .left_right_image {
+
       }
     }
-    .label {
-      display: inline-block;
-      margin-left: 40px;
+  }
+  .navigation_container {
+    margin: auto auto;
+    max-width: 600px;
+    text-align: center;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      li {
+        float: left;
+        text-align: center;
+        width: 600/6px;
+      }
+    }
+  }
+  .container {
+    margin: auto auto 20px auto;
+    max-width: 600px;
+    .clearfix;
+    .left_container,
+    .right_container {
+      box-sizing: border-box;
+      padding: 20px;
+      width: 50%;
+    }
+    .left_container {
+      float: left;
+    }
+    .right_container {
+      float: right;
+    }
+    .center_container {
+      margin: auto auto;
+      text-align: center;
+    }
+    .image {
+      width: 100%;
+      &.image_franci_david {
+        border-top-right-radius: 80px;
+      }
+    }
+    h3 {
+      color: hsl(13deg 100% 62%);
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      &.center {
+        text-align: center;
+      }
+    }
+    h4 {
+      color: hsl(13deg 100% 62%);
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    h5 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: hsl(13deg 100% 62%);
+      border-radius: 20px;
+      border: 0;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      height: 30px;
+      line-height: 30px;
+      outline: none;
+      text-align: center;
+      text-transform: uppercase;
+      width: 150px;
+    }
+  }
+  .container_rsvp {
+    .clearfix;
+    background-color: hsl(13deg 100% 62%);
+    color: hsl(0, 0%, 90%);
+    width: 100%;
+    .content_wrapper {
+      margin: auto auto;
+      max-width: 800px;
+      .left_container,
+      .right_container {
+        box-sizing: border-box;
+        padding: 20px;
+        width: 50%;
+      }
+      .left_container {
+        float: left;
+        text-align: right
+      }
+      .right_container {
+        float: right;
+      }
+      h3 {
+        font-size: 40px;
+        font-weight: 600;
+      }
     }
   }
 }
