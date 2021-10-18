@@ -176,7 +176,7 @@ body {
   text-align: center;
 }
 .app___2khK2 .top_container___1UA2b h3 {
-  font-size: 60px;
+  font-size: 80px;
   letter-spacing: 0.15em;
   margin-top: 40px;
 }
@@ -288,6 +288,23 @@ body {
 .app___2khK2 .container___ki5VE h3.center___22N84 {
   text-align: center;
 }
+.app___2khK2 .container___ki5VE h3.corn_header___DXHbV {
+  padding-left: 60px;
+  position: relative;
+  z-index: 1;
+}
+.app___2khK2 .container___ki5VE h3.corn_header___DXHbV:before {
+  background-image: url('../../media/img/assets/Asset 6.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 80px;
+  z-index: 0;
+}
 .app___2khK2 .container___ki5VE h4 {
   color: #ff6946;
   font-family: 'Bely';
@@ -295,6 +312,23 @@ body {
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+.app___2khK2 .container___ki5VE h4.airplane_header___2FMBz {
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.app___2khK2 .container___ki5VE h4.airplane_header___2FMBz:before {
+  background-image: url('../../media/img/assets/Asset 7.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 80px;
+  z-index: 0;
 }
 .app___2khK2 .container___ki5VE h5 {
   font-family: 'Bely';
