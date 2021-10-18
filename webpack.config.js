@@ -76,6 +76,7 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'media/img/', to: 'img' },
+      { from: 'media/fonts/', to: 'fonts' },
       { from: 'favicon.png', to: '' },
     ])
   ]

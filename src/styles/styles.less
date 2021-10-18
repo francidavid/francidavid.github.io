@@ -1,6 +1,16 @@
 @import 'reset.less';
 @import 'basics.less';
 
+@font-face {
+  font-family: 'Bely';
+  src: local('Bely'), url(./../media/fonts/Bely.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(./../media/fonts/Avenir.ttc) format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,35 +19,68 @@ body {
   margin: auto auto;
   max-width: 100%;
   .top_container {
-    background-color: hsl(13deg 100% 62%);
+    background-color: #ff6946;
     color: #fff;
-    margin: auto auto;
+    margin: auto auto 40px auto;
+    padding-top: 40px;
+    position: relative;
     h3,
     h5 {
-      text-align: center;
       color: hsl(0, 0%, 90%);
+      font-family: 'Bely';
+      text-align: center;
     }
     h3 {
-      font-size: 40px;
+      font-size: 60px;
+      letter-spacing: 0.15em;
+      margin-top: 40px;
     }
     h5 {
+      font-size: 16px;
+      letter-spacing: 0.15em;
       margin-top: 40px;
-      font-size: 20px;
+      padding-bottom: 100px;
+    }
+    div {
+      font-size: 0;
     }
     .image_container {
-
+      text-align:center;
       .top_center_image {
-
+        margin: auto auto;
+        width: 40px;
       }
       .left_bottom_image {
-
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 200px;
       }
-      .left_right_image {
-
+      .right_bottom_image {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 200px;
+      }
+      &.bottom_center_image_container {
+        background-color: #ff6946;
+        bottom: -20px;
+        left: 50%;
+        margin-left: -25px;
+        padding: 10px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: -20px;
+        width: 50px;
+        .bottom_center_image {
+          width: 25px;
+        }
       }
     }
   }
   .navigation_container {
+    font-family: 'Avenir';
     margin: auto auto;
     max-width: 600px;
     text-align: center;
@@ -78,9 +121,14 @@ body {
       &.image_franci_david {
         border-top-right-radius: 80px;
       }
+      &.beach {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+      }
     }
     h3 {
-      color: hsl(13deg 100% 62%);
+      color: #ff6946;
+      font-family: 'Bely';
       font-size: 40px;
       font-weight: 600;
       margin-bottom: 20px;
@@ -90,22 +138,26 @@ body {
       }
     }
     h4 {
-      color: hsl(13deg 100% 62%);
+      color: #ff6946;
+      font-family: 'Bely';
       font-size: 20px;
       font-weight: 600;
       margin-bottom: 10px;
       text-transform: uppercase;
     }
     h5 {
+      font-family: 'Bely';
       font-weight: 600;
       margin-bottom: 10px;
       text-transform: uppercase;
     }
     p {
       margin-bottom: 20px;
+      line-height: 20px;
+      font-family: 'Avenir';
     }
     button {
-      background-color: hsl(13deg 100% 62%);
+      background-color: #ff6946;
       border-radius: 20px;
       border: 0;
       color: #fff;
@@ -113,15 +165,21 @@ body {
       font-weight: 600;
       height: 30px;
       line-height: 30px;
+      margin-bottom: 20px;
       outline: none;
       text-align: center;
       text-transform: uppercase;
       width: 150px;
     }
+    table {
+      margin: auto auto;
+      font-weight: 600;
+      vertical-align: middle;
+    }
   }
   .container_rsvp {
     .clearfix;
-    background-color: hsl(13deg 100% 62%);
+    background-color: #ff6946;
     color: hsl(0, 0%, 90%);
     width: 100%;
     .content_wrapper {
@@ -143,6 +201,30 @@ body {
       h3 {
         font-size: 40px;
         font-weight: 600;
+        margin-bottom: 20px;
+      }
+      h4 {
+        margin-bottom: 20px;
+      }
+      button {
+        background-color: #fff;
+        border-radius: 20px;
+        border: 0;
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        outline: none;
+        text-align: center;
+        text-transform: uppercase;
+        width: 150px;
+      }
+      p {
+        margin: auto auto;
+        color: #000;
+        margin-bottom: 20px;
       }
     }
   }
