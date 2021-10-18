@@ -59,10 +59,10 @@ class App extends Component {
         <div className={style.container}>
           <div className={style.container}>
             <div className={style.left_container}>
-              <h3>Cosa nostra</h3>
+              <h3 className={style.corn_header}>Cosa<br />nostra<br />good</h3>
               <p>We are happy to welcome you to our wedding taking place.</p>
               <p>We are happy to welcome you to our wedding taking place.</p>
-              <h4>Italian mafia</h4>
+              <h4 className={style.airplane_header}>Italian mafia</h4>
               <p>We are happy to welcome you to our wedding taking place.</p>
               <p>We are happy to welcome you to our wedding taking place.</p>
             </div>

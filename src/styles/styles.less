@@ -31,7 +31,7 @@ body {
       text-align: center;
     }
     h3 {
-      font-size: 60px;
+      font-size: 80px;
       letter-spacing: 0.15em;
       margin-top: 40px;
     }
@@ -136,6 +136,23 @@ body {
       &.center {
         text-align: center;
       }
+      &.corn_header {
+        padding-left: 60px;
+        position: relative;
+        z-index: 1;
+        &:before {
+          background-image: url('./../../media/img/assets/Asset 6.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          content: '';
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 80px;
+          z-index: 0;
+        }
+      }
     }
     h4 {
       color: #ff6946;
@@ -144,6 +161,23 @@ body {
       font-weight: 600;
       margin-bottom: 10px;
       text-transform: uppercase;
+      &.airplane_header {
+        margin-bottom: 40px;
+        position: relative;
+        z-index: 1;
+        &:before {
+          background-image: url('./../../media/img/assets/Asset 7.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          content: '';
+          height: 100%;
+          position: absolute;
+          right: 0;
+          top: 10px;
+          width: 80px;
+          z-index: 0;
+        }
+      }
     }
     h5 {
       font-family: 'Bely';
