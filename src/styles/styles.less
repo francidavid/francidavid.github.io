@@ -27,9 +27,27 @@ body {
       display: block;
     }
   }
+  img {
+    &.float_left {
+      float: left;
+      padding-right: 20px;
+    }
+     &.float_right {
+      float: right;
+      padding-left: 20px;
+    }
+  }
+  .text_right {
+    text-align: right;
+  }
   margin: auto auto;
   padding-bottom: 40px;
   max-width: 100%;
+  .sombrero_legend,
+  .wiki_legend,
+  .tupo_legend {
+    width: 50px;
+  }
   .top_container {
     background-color: #ff6946;
     color: #f1e6d0;
@@ -159,12 +177,12 @@ body {
       text-align: center;
     }
     &.corn_header {
-      padding-left: 60px;
+      padding-left: 70px;
       position: relative;
       z-index: 1;
       letter-spacing: 0.05em;
       &:before {
-        background-image: url('./../../img/assets/Asset 6.png');
+        background-image: url('./../../img/assets/corn.png');
         background-repeat: no-repeat;
         background-size: 100%;
         content: '';
@@ -176,12 +194,31 @@ body {
         z-index: 0;
       }
     }
+    &.accommodation_header {
+      margin: auto auto 40px auto;
+      max-width: 600px;
+      position: relative;
+      &:before {
+        background-image: url('./../../img/assets/wiki.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        content: '';
+        height: 349/4px;
+        overflow: visible;
+        position: absolute;
+        right: 30px;
+        top: -20px;
+        transform: rotate(50deg);
+        width: 234/4px;
+        z-index: 0;
+      }
+    }
   }
   .container {
-    margin: 20px auto 20px auto;
-    padding: 0 20px;
     box-sizing: border-box;
+    margin: 20px auto 20px auto;
     max-width: 600px;
+    padding: 0 20px;
     @media all and (max-width: 500px) {
       padding: 0 20px;
     }
@@ -199,11 +236,28 @@ body {
         float: left;
         width: 60%;
       }
+      &.left_container_30 {
+        @media all and (min-width: 500px) {
+          float: left;
+          width: 30%;
+        }
+      }
     }
     .right_container {
       @media all and (min-width: 500px) {
         float: right;
         width: 40%;
+      }
+      &.right_container_70 {
+        @media all and (min-width: 500px) {
+          float: right;
+          width: 70%;
+        }
+        &.legend {
+          p {
+            padding-left: 70px;
+          }
+        }
       }
     }
     .center_container {
@@ -213,6 +267,12 @@ body {
     .image {
       width: 100%;
       margin-bottom: 20px;
+      &.float_left {
+        width: 50%;
+      }
+      &.float_right {
+        width: 50%;
+      }
       @media all and (min-width: 500px) {
         &.image_franci_david {
           border-top-right-radius: 80px;
@@ -224,6 +284,12 @@ body {
         &.ecuador2 {
           border-top-left-radius: 50%;
           border-top-right-radius: 50%;
+        }
+        &.flower {
+          width: 150px;
+        }
+        &.corn_sparkly {
+          width: 150px;
         }
       }
     }
@@ -246,7 +312,7 @@ body {
           content: '';
           height: 100%;
           position: absolute;
-          right: 0;
+          right: 75px;
           top: 15px;
           width: 80px;
           z-index: 0;
@@ -272,9 +338,9 @@ body {
         }
       }
       strong {
+        font-size: 14px;
         font-weight: 900;
         text-transform: uppercase;
-        font-size: 14px;
       }
     }
     button {
@@ -327,14 +393,15 @@ body {
     color: #f1e6d0;
     margin: 20px auto;
     padding: 0;
-    position: relative;
     width: 100%;
+    max-width: 800px;
+    position: relative;
     .franci_child_container,
     .david_child_container {
       position: absolute;
       img {
         width: 150px;
-        @media all and (max-width: 500px) {
+        @media all and (max-width: 800px) {
           width: 100px;
         }
       }
@@ -343,7 +410,7 @@ body {
       bottom: 10px;
       font-size: 0;
       left: 10px;
-      @media all and (max-width: 500px) {
+      @media all and (max-width: 800px) {
         left: auto;
         right: 20px;
       }
@@ -352,14 +419,33 @@ body {
       font-size: 0;
       right: 20px;
       top: 20px;
+      img {
+        position: relative;
+        display: block;
+      }
+      div {
+        &:after {
+          background-image: url('./../../img/assets/sombrero.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          bottom: -20px;
+          content: '';
+          height: 280/5px;
+          transform: rotate(-15deg);
+          left: -20px;
+          position: absolute;
+          width: 344/5px;
+          z-index: 2;
+        }
+      }
     }
     .content {
       border-right: 100px solid #101d47;
       margin-left: 160px;
-      margin-right: 160px;
+      margin-right: 120px;
       max-width: 400px;
       padding: 40px 20px;
-      @media all and (max-width: 500px) {
+      @media all and (max-width: 800px) {
         margin-left: 0;
         margin-right: 0;
       }
@@ -387,6 +473,79 @@ body {
         text-align: center;
         text-transform: uppercase;
         width: 150px;
+      }
+      p {
+        color: #000;
+        font-family: 'Avenir';
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .container_funfacts {
+    background-color: #ff6946;
+    .content {
+      margin: auto auto;
+      max-width: 600px;
+      padding: 40px 20px;
+      h3,
+      h4 {
+        text-transform: uppercase;
+        text-align: center;
+      }
+      h3 {
+        color: #f1e6d0;
+        font-family: 'Bely';
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        position: relative;
+        &.branch_header {
+          &:after {
+            background-image: url('./../../img/assets/branch.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            content: '';
+            height: 704/8px;
+            position: absolute;
+            right: 75px;
+            top: 0px;
+            width: 737/8px;
+          }
+        }
+      }
+      h4 {
+        font-size: 16px;
+        font-family: 'Bely';
+        font-weight: 400;
+        margin-bottom: 40px;
+      }
+      h5 {
+        font-family: 'Bely';
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      h6 {
+        font-family: 'Avenir';
+        font-weight: 600;
+      }
+      img {
+        &.saraguro {
+          border-top-left-radius: 50%;
+          padding-left: 20px;
+          width: 200px;
+        }
+        &.sombrero {
+          padding-right: 20px;
+          width: 250px;
+        }
+        &.mitad_mundo {
+          padding-left: 20px;
+          width: 250px;
+        }
       }
       p {
         color: #000;
