@@ -19,6 +19,10 @@ import saraguro from './../../media/img/saraguro.jpg';
 import sombrero from './../../media/img/assets/sombrero.png';
 import mitad_mundo from './../../media/img/mitad_mundo.jpg';
 import wiki from './../../media/img/assets/wiki.png';
+import tours from './../../media/img/tours.jpg';
+import quilotoa from './../../media/img/quilotoa.jpg';
+import road from './../../media/img/road.jpg';
+import beach from './../../media/img/beach.jpg';
 
 class App extends Component {
   constructor(props) {
@@ -95,6 +99,7 @@ class App extends Component {
           <img src={flower} alt="Image" className={style.image + ' ' + style.flower + ' ' + style.float_right} />
           <p>We suggest you check the US CDC for general vaccine info for Ecuador, it’s very complete. Of course, do check your own country’s recommendations as well.</p>
           <p>- Please note that to attend the wedding you have to be vaccinated for COVID-19.</p>
+          <p>- UPDATE 30.11.2021 2148 CET: Vaccinations are now mandatory to enter Ecuador. A PCR test is also mandatory with a validity of 72 hours ahead of travel.</p>
           <h5>Currency</h5>
           <img src={corn_sparkly} alt="Image" className={style.image + ' ' + style.corn_sparkly + ' ' + style.float_left} />
           <p>Ecuador uses the US dollar. Make sure you get small banknotes, below 100 USD, otherwise people might not accept them.</p>
@@ -157,7 +162,7 @@ class App extends Component {
             <p>It was not until 1809 that Juan Pío Montúfar and, a little later, Simón Bolivar fought to liberate the country.  In 1820 Guayaquil was liberated and ten years later the whole country was able to declare its independence.</p>
             <h6>Up to the present day</h6>
             <p>From Flores to Correa, there has been a succession of presidents, crises and coups. Important dates to remember from this period include 1861, when Gabriel García Moreno abolished slavery. The years 1925, 1961 and 2010 were marked by attempted coups. Among the great men, José María Velasco Ibarra was elected President of the Republic five times. In 2005, President Lucio Gutierrez was dismissed from Parliament, a state of emergency was declared and a new Constitution was adopted.</p>
-{/*            <img src={sombrero} className={style.float_left + ' ' + style.sombrero} />
+            {/*<img src={sombrero} className={style.float_left + ' ' + style.sombrero} />
             <h5>Panama</h5>
             <p>Patrimonio dell’estate, del sole e dei Tropici è il famosissimo cappello “Panama”, che nonostante il nome, nasce proprio in Ecuador. Viene prodotto da ormai 300 anni nel cuore delle montagne, a 2.550 metri, nella città di Cuenca.</p>
             <p>Questi cappelli di paglia venivano intrecciati lungo la costa ecuadoriana e poi portati a Panama per essere venduti agli operai che lavoravano al canale. In seguito all’apertura del canale di Panama, diventarono unaccessorio di lusso per i benestanti in viaggio. La paglia utilizzata proviene dalle palme “toquilla”, nella città di Montecristi, dove gli stessi locali, la lavorano con macchinari essenziali. La qualità dipende da quanto è fine la fibra che si usa, più è sottile, piùla realizzazione è pregiata.</p>
@@ -170,22 +175,141 @@ class App extends Component {
             <p>La linea esatta comunque, che si trova all’interno del Museo Intanan.</p>*/}
           </div>
         </div>
-       {/* <div className={style.container}>
+        <div className={style.container}>
+          <p>Some of our little motifs in the overall design and invitations are references from Saraguro. The indigenous town where the Mogrovejo Maridueña’s grew up.</p>
+          <br />
+          <br />
           <div className={style.left_container + ' ' + style.left_container_30}>
             <h4 style={{color: '#000'}} className={style.title}>Legend</h4>
           </div>
           <div className={style.right_container + ' ' + style.legend + ' ' + style.right_container_70}>
             <img src={sombrero} className={style.float_left + ' ' + style.sombrero_legend} />
             <h5>Sombrero</h5>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+            <p>Saraguro sombrero is white on the top and black and white at the bottom. It is typically made of compressed sheep wool, wax and painted with indigo. Women and men still wear it today, mostly for important ceremonies.</p>
             <img src={wiki} className={style.float_left + ' ' + style.wiki_legend} />
             <h5>Wiki</h5>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+            <p>Little party devil of the Saraguro people. It always appears on important events, to sing “wiki, wiki” and dance and jump around. And given that it’s a devil, it carries a whip to chase down children.</p>
             <img src={tupo} className={style.float_left + ' ' + style.tupo_legend} />
             <h5>Tupo</h5>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+            <p>Silver made and intended to close the Saraguro women’s shawl on the front. It is fashioned to resemble the sun, with multiple faces on its rays and a chain. We chose it as a symbol of union, because without it the Saraguro’s dress wouldn’t hold.</p>
           </div>
-        </div>*/}
+          <div className={style.clearfix}></div>
+          <br />
+          <br />
+          <p>Multiple flowers and corn were added as well. The flowers are generally tropical, for the amazon or coast regions of Ecuador and the corn reminds of Saraguro once more. Saraguro in fact is known as the land of corn.</p>
+        </div>
+        <div className={style.container_tours}>
+          <div className={style.content}>
+            <div className={style.left_container + ' ' + style.left_container_40}>
+              <h3>Mogrotour #1</h3>
+              <h5>Quito-Andes-Amazon-Guayaquil-Olón</h5>
+              <h3>Mogrotour #2</h3>
+              <h5>Quito-Equator line-Otavalo-Amazon</h5>
+            </div>
+            <div className={style.right_container + ' ' + style.right_container_60}>
+              <img src={tours} alt="Image" className={style.image + ' ' + style.tours} />
+            </div>
+          </div>
+        </div>
+        <div className={style.container_tour_details}>
+          <div style={{maxWidth:'600px', margin: 'auto auto'}}>
+            <p>We will be travelling ahead of the wedding and spending some days at the beach after. So consider staying a little longer to relax on the beach and play, surf, do the things that one does at the beach.</p>
+            <p>Ecuador’s huge diversity is determined by its topography. Not only in terms of how the flora and fauna have evolved but also how Ecuadorians distinguish themselves the most.</p>
+            <p>Ecuador has three very distinct regions: the flat lands of the “Costa” for coast region, the “Sierra” for the Andes mountain range —that splits the country from north to south—, and the “Oriente” for the Amazon region. There are also the Galapagos islands, but that’s a completely different thing. Overall, there are a lot of large spaces where nature is overpowering. That is Ecuador’s best appeal.</p>
+            <p>The tours are roughly based on 10 days of travel ahead of the wedding. The third one, is a simple best of.</p>
+            <p>Two suggestions: they all require travel by car or bus. The trips involve a mix of Andes and Amazon region and end in Olón for the wedding, which lies on the coast.</p>
+          </div>
+          <div className={style.content}>
+            <div className={style.left_container + ' ' + style.left_container_50} style={{paddingRight: '40px'}}>
+              <h3>Quito-Andes-Amazon-Guayaquil-Olón</h3>
+              <ol>
+                <li>
+                  <h5>Quito (Andes)</h5>
+                  <ul>
+                    <li>
+                      <strong>Old town:</strong> plaza grande, Carondelet Palace (presidencial palace), Iglesia de la Compañia de Jesus, Catedral del Voto Nacional, Calle la Ronda.<br />
+                      <strong>Museo:</strong> Capilla del Hombre/Casa Museo Guayasamín, painter Guayasamín.<br />
+                      <strong>Museo:</strong> Templo del Sol, painter Ortega Maila
+                    </li>
+                    <li>Teleferic</li>
+                    <li>Hikes - ruco Pichincha volcano, Guagua Pichincha volcano</li>
+                  </ul>
+                </li>
+                <li>
+                  <h5>Quilotoa</h5>
+                  <p>One of the most amazing volcano lagoons you can visit. Mirador de Cristal: <a href="https://goo.gl/maps/NZ14kFvSC7gEriqu7">https://goo.gl/maps/NZ14kFvSC7gEriqu7</a></p>
+                </li>
+                <li>
+                  <h5>Cotopaxi/Chimborazo</h5>
+                  <p>The Parque Nacional Cotopaxi lies at 4,500m minimum, you might need a little time to adjust.</p>
+                  <p>Cotopaxi: sleep at Hacienda los Mortiños (inside the National Park) if you want to wake up surrounded by a beautiful view of volcanoes and the "Paramo", the alpine neotropical tundra.</p>
+                </li>
+                <li>
+                  <h5>Baños (Tungurahua)</h5>
+                  <p>Pailón del Diablo waterfall, Machay waterfall.</p>
+                </li>
+                <li>
+                  <h5>Puyo (Amazon)</h5>
+                  <p>Indichuris mirador and Hola Vida waterfall.</p>
+                </li>
+                <li>
+                  <h5>Guayaquil (Coast)</h5>
+                  <p>Parque histórico (in Samborondón), Malecón Simón Bolivar, Parque Seminario (iguanas), Barrio las Peñas (prepare for the stairs climbing up) and Puerto Santa Ana.</p>
+                  <ul>
+                    <li>We are thinking of organising a dinner on the 25th in Parque histórico. It can’t be confirmed yet, but worth a note.</li>
+                  </ul>
+                </li>
+                <li>
+                  <h5>Olón</h5>
+                  <p>Lays on the “ruta del Spondylus”, a road connecting the beach-towns of the coast of Ecuador. There are truly beautiful spots like Playa De Los Frailes, Cerro Blanco...</p>
+                </li>
+              </ol>
+            </div>
+            <div className={style.right_container + ' ' + style.right_container_50}>
+              <img src={quilotoa} alt="Image" className={style.image + ' ' + style.quilotoa} />
+              <br />
+              <br />
+              <img src={road} alt="Image" className={style.image + ' ' + style.road + ' ' + style.desktop_img} />
+            </div>
+          </div>
+          <div className={style.clearfix}></div>
+          <div className={style.content}>
+            <div className={style.right_container + ' ' + style.left_container_50}>
+              <img src={beach} alt="Image" className={style.image + ' ' + style.beach + ' ' + style.desktop_img} />
+            </div>
+            <div className={style.left_container + ' ' + style.right_container_50} style={{paddingLeft: '40px'}}>
+              <h3>Quito-Equator line-Otavalo-Amazon</h3>
+              <ol>
+                <li>
+                  <h5>Quito (see above)</h5>
+                </li>
+                <li>
+                  <h5>Mitad del Mundo</h5>
+                  <p>It’s quite a particular thing to visit, but you’re in Ecuador in the end (can be done in a few hours).</p>
+                </li>
+                <li>
+                  <h5>Otavalo</h5>
+                  <p>Indigenous town with a large market.</p>
+                </li>
+                <li>
+                  <h5>Cuicocha</h5>
+                  <p>Large volcanic lagoon.</p>
+                </li>
+                <li>
+                  <h5>Flight to Coca and trip to Sucumbios</h5>
+                  <p>See <a href="https://www.sachalodge.com/book-now/">https://www.sachalodge.com/book-now/</a> or <a href="https://www.napowildlifecenter.com/location/">https://www.napowildlifecenter.com/location/</a></p>
+                </li>
+                <li>
+                  <h5>Return and flight to Guayaquil</h5>
+                </li>
+                <li>
+                  <h5>Olón</h5>
+                </li>
+              </ol>
+              <img src={beach} alt="Image" className={style.image + ' ' + style.beach + ' ' + style.mobile_img} />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
