@@ -53,6 +53,7 @@ class App extends Component {
       <div className={style.app}>
         <div className={style.top_container}>
           <div className={style.image_container}><img src={top_center_image} alt="" className={style.top_center_image} /></div>
+          <div className={style.updated}>Updated<br />30.11.2021</div>
           <h3>Fran<span className={style.over}>c</span>esca<br /><img src={amp} className={style.amp} /><br />Da<span className={style.over}>v</span>id</h3>
           <h5>27&middot;02&middot;2022</h5>
           <div className={style.image_container}><img src={left_bottom_image} alt="" className={style.left_bottom_image} /></div>
