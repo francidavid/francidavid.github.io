@@ -203,6 +203,16 @@ body {
   padding-top: 40px;
   position: relative;
 }
+.app___2khK2 .top_container___1UA2b .updated___vvX3i {
+  font-family: 'Bely';
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  text-transform: uppercase;
+  top: 10px;
+}
 .app___2khK2 .top_container___1UA2b h3,
 .app___2khK2 .top_container___1UA2b h5 {
   color: hsl(0, 0%, 90%);
@@ -212,8 +222,8 @@ body {
 .app___2khK2 .top_container___1UA2b h3 {
   font-size: 80px;
   letter-spacing: 0.15em;
-  margin-top: 40px;
   line-height: 35px;
+  margin-top: 40px;
   position: relative;
   z-index: 1;
 }
