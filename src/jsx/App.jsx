@@ -99,7 +99,7 @@ class App extends Component {
           <img src={flower} alt="Image" className={style.image + ' ' + style.flower + ' ' + style.float_right} />
           <p>We suggest you check the US CDC for general vaccine info for Ecuador, it’s very complete. Of course, do check your own country’s recommendations as well.</p>
           <p>- Please note that to attend the wedding you have to be vaccinated for COVID-19.</p>
-          <p>- UPDATE 30.11.2021 2148 CET: Vaccinations are now mandatory to enter Ecuador. A PCR test is also mandatory with a validity of 72 hours ahead of travel.</p>
+          <p>- <strong>UPDATE 30.11.2021 2148 CET</strong>: Vaccinations are now mandatory to enter Ecuador. A PCR test is also mandatory with a validity of 72 hours ahead of travel.</p>
           <h5>Currency</h5>
           <img src={corn_sparkly} alt="Image" className={style.image + ' ' + style.corn_sparkly + ' ' + style.float_left} />
           <p>Ecuador uses the US dollar. Make sure you get small banknotes, below 100 USD, otherwise people might not accept them.</p>
