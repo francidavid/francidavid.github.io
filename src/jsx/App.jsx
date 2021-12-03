@@ -88,7 +88,7 @@ class App extends Component {
         <div className={style.container}>
           <img src={ecuador1} alt="Image" className={style.image + ' ' + style.ecuador1 + ' ' + style.float_left + ' ' + style.desktop} />
           <img src={ecuador1} alt="Image" className={style.image + ' ' + style.ecuador1 + ' ' + style.mobile} />
-          <p>For those of you coming from abroad we have made a reservation at our favourite hostel, La Mariposa, near the beach in Olón. The reservation covers Saturday 26 to Monday 28 February. If you want to stay a little longer to enjoy the beach and the area you can extend you can extend your stay by contacting the hotel directly via <a href="https://wa.me/+593980178357" target="_blank">Whatsapp (+593 98 017 8357)</a>. Mention that you are coming to the Matrimonio Mogrovejo Zago.</p>
+          <p>For those of you coming from abroad we have made a reservation at our favourite hostel, La Mariposa, near the beach in Olón. The reservation covers Saturday 26 to Monday 28 February. If you want to stay a little longer to enjoy the beach and the area you can extend you can extend your stay by contacting the hotel directly via <a href="https://wa.me/+593980178357" target="_blank">Whatsapp (+593&nbps;98&nbps;017&nbps;8357)</a>. Mention that you are coming to the Matrimonio Mogrovejo Zago.</p>
           <img src={mariposa} alt="Image" className={style.desktop + ' ' + style.image + ' ' + style.ecuador2 + ' ' + style.float_right} />
           <p>La Mariposa offers you a nice room with AC and the beach is three minutes away. You will find plenty of food options nearby, on the beach or in town. Olón is also right next to a “surfing-party town” called Montañita. There are plenty of restaurants and other stay-in options and it’s only a one-dollar-10-minute taxi ride away.</p>
           <h5>Dress code</h5>
@@ -222,7 +222,6 @@ class App extends Component {
           <div style={{maxWidth:'600px', margin: 'auto auto'}}>
             <p>We will be travelling ahead of the wedding and spending some days at the beach after. So consider staying a little longer to relax on the beach and play, surf, do the things that one does at the beach.</p>
             <p>Ecuador’s huge diversity is determined by its topography. Not only in terms of how the flora and fauna have evolved but also how Ecuadorians distinguish themselves the most.</p>
-            <img src={amazon} alt="Image" className={style.image + ' ' + style.amazon} />
             <p>Ecuador has three very distinct regions: the flat lands of the “Costa” for coast region, the “Sierra” for the Andes mountain range —that splits the country from north to south-, and the “Oriente” for the Amazon region. There are also the Galapagos islands, but that’s a completely different thing. Overall, there are a lot of large spaces where nature is overpowering. That is Ecuador’s best appeal.</p>
             <p>The tours are roughly based on 10 days of travel ahead of the wedding. The third one, is a simple best of.</p>
             <p>Two suggestions: they all require travel by car or bus. The trips involve a mix of Andes and Amazon region and end in Olón for the wedding, which lies on the coast.</p>
@@ -231,7 +230,7 @@ class App extends Component {
             <div className={style.left_container + ' ' + style.left_container_50} style={{paddingRight: '40px'}}>
               <h3>Quito-Andes-Amazon-Guayaquil-Olón</h3>
               <p><strong>Note:</strong> we recommend renting a car only when you leave Quito, otherwise you must consider that the city has a traffic control system that allows only certain plate numbers to circulate depending on the day of the week.</p>
-              <p><strong>Taxi contact:</strong> Santiago Reynoso +593&nbsp;96&nbsp;798&nbsp;8913 - (recommended by Enrico), Uber works quite well there as well (according to a local).</p>
+              <p><strong>Taxi contact:</strong> Santiago Reynoso +593&nbsp;96&nbsp;798&nbsp;8913 – (recommended by Enrico), Uber works quite well there as well (according to a local).</p>
               <ol>
                 <li>
                   <h5><a href="https://storyteller.travel/quito-ecuador-facts/">Quito</a> (Andes) old town</h5>
@@ -261,6 +260,7 @@ class App extends Component {
                   <h5>Puyo (Amazon)</h5>
                   <p>If you leave in the early morning to the Indichuris mirador and Hola Vida waterfall (these two have to be contacted via Facebook or WhatsApp, an indigenous member of the community will guide you), you can stop in Puyo for an early afternoon lunch and headout again.</p>
                   <p><strong>Note:</strong> It’s a long way to Guayaquil and really far from Olón. If you have enough time maybe stop at Chimborazo volcano (6,263m, closest point from earth to the sun). </p>
+                  <img src={road} alt="Image" className={style.image + ' ' + style.road + ' ' + style.mobile_img} />
                 </li>
                 <li>
                   <h5>Guayaquil (Coast)</h5>
@@ -289,11 +289,14 @@ class App extends Component {
           <div className={style.content}>
             <div className={style.right_container + ' ' + style.left_container_50}>
               <img src={mitad} alt="Image" className={style.image + ' ' + style.mitad + ' ' + style.desktop_img} />
+              <br />
+              <br />
+              <img src={amazon} alt="Image" className={style.image + ' ' + style.amazon + ' ' + style.desktop_img} />
             </div>
             <div className={style.left_container + ' ' + style.right_container_50} style={{paddingLeft: '40px'}}>
               <h3>Quito-Equator line-Otavalo-Amazon (longer Amazon stay)</h3>
               <p><strong>Note:</strong> we recommend renting a car only when you leave Quito, otherwise you must consider that the city has a traffic control system that allows only certain cars to circulate depending on the day of the week and plaque number.</p>
-              <p><strong>Taxi contact:</strong> Santiago Reynoso +593&nbsp;96&nbsp;798&nbsp;8913 - (recommended by Enrico), Uber works quite well there as well (According to a local).</p>
+              <p><strong>Taxi contact:</strong> Santiago Reynoso +593&nbsp;96&nbsp;798&nbsp;8913 – (recommended by Enrico), Uber works quite well there as well (According to a local).</p>
               <ol>
                 <li>
                   <h5><a href="https://storyteller.travel/quito-ecuador-facts/">Quito</a> (Andes) old town</h5>
@@ -309,6 +312,7 @@ class App extends Component {
                 <li>
                   <h5><a href="http://www.mitaddelmundo.gob.ec/es/">Mitad del Mundo</a></h5>
                   <p>It’s quite a particular thing to visit, but you’re in Ecuador in the end (can be done in a couple of hours from Quito).</p>
+                  <img src={mitad} alt="Image" className={style.image + ' ' + style.mitad + ' ' + style.mobile_img} />
                 </li>
                 <li>
                   <h5>Otavalo</h5>
@@ -316,7 +320,7 @@ class App extends Component {
                 </li>
                 <li>
                   <h5><a href="https://www.tripadvisor.com/Attraction_Review-g297518-d315621-Reviews-Laguna_Cuicocha-Cotacachi_Imbabura_Province.html">Cuicocha lagoon</a></h5>
-                  <p>The "guinea-pigs lake” is quite an amazing location, you can rent a boat or go for an almost 12km long hike around it.</p>
+                  <p>The “guinea-pigs lake” is quite an amazing location, you can rent a boat or go for an almost 12km long hike around it.</p>
                 </li>
                 <li>
                   <h5>Cayambe volcano (5,790m)</h5>
@@ -325,6 +329,7 @@ class App extends Component {
                 <li>
                   <h5>Quito flight to Coca and trip to the Yasuni National park in Napo</h5>
                   <p>This is an expensive trip but it means accessing one of the most remote areas in the entire Amazon rainforest. It is often compared to visiting the Galapagos and one of the areas with the greatest biodiversity on the planet. You can organise a tour with the <a href="https://www.napowildlifecenter.com/location/">Napo Wildlife</a>, <a href="https://www.sachalodge.com/the-lodge/">Sachalodge</a> or <a href="https://www.laselvajunglelodge.com/?gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7yk1klAk_NK21S2-ZmeR8XRDHR-om2VXBpky6rHUgMVsP2JUemefNNcaAl5HEALw_wcB">La Selva Amazon EcoLodge</a> to travel from Quito to Coca. You would be received there and taken on canoes to the lodges in the middle of the rainforest and go on day tours.</p>
+                  <img src={amazon} alt="Image" className={style.image + ' ' + style.amazon + ' ' + style.mobile_img} />
                 </li>
                 <li>
                   <h5>Flight Quito to Guayaquil</h5>
@@ -345,8 +350,8 @@ class App extends Component {
                   <p>It’s a former fishermen’s town, surrounded by similar towns with long beaches. Head to Montañita to take some surf lessons after our wedding, or head north to visit the reserves of <a href="https://www.tripadvisor.com/Attraction_Review-g635729-d3229640-Reviews-Playa_de_los_Frailes-Machalilla_National_Park_Manabi_Province.html">Playa de los Frailes</a>, <a href="https://en.wikipedia.org/wiki/Isla_de_la_Plata">Isla de la Plata</a> a.k.a the Galapagos for the poor, a place where you can also spot the famous Blue footed booby, and <a href="https://www.comunidadaguablanca.com/">Agua Blanca</a> community tourism.</p>
                 </li>
               </ol>
-              <img src={beach} alt="Image" className={style.image + ' ' + style.beach + ' ' + style.mobile_img} />
             </div>
+            <img src={beach} alt="Image" className={style.image + ' ' + style.beach} />
           </div>
         </div>
       </div>
