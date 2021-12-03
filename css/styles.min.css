@@ -725,19 +725,16 @@ body {
 .app___2khK2 .container_funfacts___2Tv4F {
   margin: auto auto;
 }
-.app___2khK2 .container_tour_details___1rB4N img.amazon___3kUNa,
-.app___2khK2 .container_tours___Oj3mk img.amazon___3kUNa,
-.app___2khK2 .container_funfacts___2Tv4F img.amazon___3kUNa {
-  display: block;
-  margin: auto auto 20px auto;
-  max-width: 350px;
-  width: 100%;
-}
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN,
 .app___2khK2 .container_tours___Oj3mk .content___ITztN,
 .app___2khK2 .container_funfacts___2Tv4F .content___ITztN {
   margin: auto auto;
   padding: 40px 20px;
+}
+.app___2khK2 .container_tour_details___1rB4N .content___ITztN p,
+.app___2khK2 .container_tours___Oj3mk .content___ITztN p,
+.app___2khK2 .container_funfacts___2Tv4F .content___ITztN p {
+  padding: 0;
 }
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN strong,
 .app___2khK2 .container_tours___Oj3mk .content___ITztN strong,
