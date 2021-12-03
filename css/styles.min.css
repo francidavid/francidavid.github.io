@@ -191,6 +191,11 @@ body {
 .app___2khK2 .text_right___3lU9h {
   text-align: right;
 }
+@media all and (max-width: 450px) {
+  .app___2khK2 .phonenumber___3Jfsf {
+    font-size: 12px;
+  }
+}
 .app___2khK2 .sombrero_legend___20drr,
 .app___2khK2 .wiki_legend___3i-7y,
 .app___2khK2 .tupo_legend___21lER {
@@ -230,6 +235,11 @@ body {
 @media all and (max-width: 500px) {
   .app___2khK2 .top_container___1UA2b h3 {
     font-size: 56px;
+  }
+}
+@media all and (max-width: 400px) {
+  .app___2khK2 .top_container___1UA2b h3 {
+    font-size: 48px;
   }
 }
 .app___2khK2 .top_container___1UA2b h3 .over___2hueq {
@@ -333,6 +343,11 @@ body {
     font-size: 34px;
   }
 }
+@media all and (max-width: 400px) {
+  .app___2khK2 h3.title___2r2fk {
+    font-size: 28px;
+  }
+}
 .app___2khK2 h3.title___2r2fk.center___22N84 {
   text-align: center;
 }
@@ -372,6 +387,11 @@ body {
   transform: rotate(50deg);
   width: 58.5px;
   z-index: 0;
+}
+@media all and (max-width: 500px) {
+  .app___2khK2 h3.title___2r2fk.accommodation_header___11KdM:before {
+    display: none;
+  }
 }
 .app___2khK2 .container___ki5VE {
   box-sizing: border-box;
@@ -547,10 +567,10 @@ body {
 }
 .app___2khK2 .container___ki5VE table td a {
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .app___2khK2 .container___ki5VE table td a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .app___2khK2 .container___ki5VE table td .footer_flower___3ExoB {
   margin-bottom: 0;
@@ -671,17 +691,59 @@ body {
 .app___2khK2 .container_funfacts___2Tv4F .content___ITztN {
   max-width: 600px;
 }
+.app___2khK2 .container_funfacts___2Tv4F .content___ITztN h3 {
+  margin-bottom: 20px !important;
+}
+@media all and (min-width: 500px) {
+  .app___2khK2 .container_funfacts___2Tv4F .content___ITztN .left_container_30___3e5gC {
+    float: left;
+    width: 30%;
+  }
+}
+@media all and (min-width: 500px) {
+  .app___2khK2 .container_funfacts___2Tv4F .content___ITztN .right_container_70___2K9xI {
+    float: right;
+    width: 70%;
+  }
+}
+.app___2khK2 .container_funfacts___2Tv4F .content___ITztN .right_container_70___2K9xI.legend___2jYuz p {
+  padding-left: 70px;
+}
+.app___2khK2 .container_funfacts___2Tv4F .content___ITztN .sombrero_legend___20drr,
+.app___2khK2 .container_funfacts___2Tv4F .content___ITztN .wiki_legend___3i-7y,
+.app___2khK2 .container_funfacts___2Tv4F .content___ITztN .tupo_legend___21lER {
+  width: 50px;
+}
 .app___2khK2 .container_tours___Oj3mk {
   background-color: #101d47;
 }
 .app___2khK2 .container_tours___Oj3mk .content___ITztN {
   max-width: 1000px;
 }
+.app___2khK2 .container_tour_details___1rB4N,
+.app___2khK2 .container_tours___Oj3mk,
+.app___2khK2 .container_funfacts___2Tv4F {
+  margin: auto auto;
+}
+.app___2khK2 .container_tour_details___1rB4N img.amazon___3kUNa,
+.app___2khK2 .container_tours___Oj3mk img.amazon___3kUNa,
+.app___2khK2 .container_funfacts___2Tv4F img.amazon___3kUNa {
+  display: block;
+  margin: auto auto 20px auto;
+  max-width: 350px;
+  width: 100%;
+}
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN,
 .app___2khK2 .container_tours___Oj3mk .content___ITztN,
 .app___2khK2 .container_funfacts___2Tv4F .content___ITztN {
   margin: auto auto;
   padding: 40px 20px;
+}
+.app___2khK2 .container_tour_details___1rB4N .content___ITztN strong,
+.app___2khK2 .container_tours___Oj3mk .content___ITztN strong,
+.app___2khK2 .container_funfacts___2Tv4F .content___ITztN strong {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN h3,
 .app___2khK2 .container_tours___Oj3mk .content___ITztN h3,
@@ -824,10 +886,12 @@ body {
   visibility: hidden;
 }
 .app___2khK2 .container_tour_details___1rB4N p {
+  box-sizing: border-box;
   font-family: 'Avenir';
   font-size: 15px;
   line-height: 22px;
   margin-bottom: 20px;
+  padding: 0 10px;
 }
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN {
   zoom: 1;
@@ -892,7 +956,7 @@ body {
   font-size: 15px;
   line-height: 22px;
   list-style: decimal;
-  padding-left: 28px;
+  padding-left: 20px;
 }
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN ol a {
   color: #000;
@@ -903,7 +967,7 @@ body {
 }
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN ol ul {
   list-style: disc;
-  padding-left: 28px;
+  padding-left: 20px;
 }
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN h3 {
   font-size: 30px;
@@ -911,6 +975,7 @@ body {
 .app___2khK2 .container_tour_details___1rB4N .content___ITztN h5 {
   font-size: 16px;
   letter-spacing: 0.15em;
+  margin-bottom: 5px;
   margin-top: 20px;
 }
 
