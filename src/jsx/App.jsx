@@ -25,6 +25,7 @@ import road from './../../media/img/road.jpg';
 import beach from './../../media/img/beach.jpg';
 import mitad from './../../media/img/mitad.jpg';
 import amazon from './../../media/img/amazon.jpg';
+import franci_explaining from './../../media/vid/franci_explaining.mp4';
 
 class App extends Component {
   constructor(props) {
@@ -271,6 +272,10 @@ class App extends Component {
                     <strong>Visit:</strong><a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g303845-d317918-Reviews-Parque_Historico_Guayaquil-Guayaquil_Guayas_Province.html">Parque histórico</a>, Malecón Simón Bolivar, Parque Seminario (iguanas park), Barrio de las Peñas.<br />
                     <strong>Restaurants:</strong> <a target="_blank" href="https://www.tripadvisor.com/Restaurant_Review-g303845-d15295693-Reviews-Mercado_del_Rio-Guayaquil_Guayas_Province.html">Mercado del Rio</a>, Calle Panamá and Calle Junín crossing - some nice <a target="_blank" href="https://quenoticias.com/comunidad/restaurantes-calle-panama-guayaquil/">restaurants</a> like the <a target="_blank" href="https://www.instagram.com/lamedialuna.ec/?hl=en">Media Luna</a> for empanadas, great fruit juice at <a target="_blank" href="https://www.google.com/maps/place/Frutabar/@-2.1886356,-79.8789464,18.72z/data=!4m12!1m6!3m5!1s0x0:0x7a18790331c47f89!2sLa+Cevicher%C3%ADa+Guayaca!8m2!3d-2.1750885!4d-79.9054692!3m4!1s0x902d6dd596bfd46b:0xaf6638ebb8bc2ab3!8m2!3d-2.187987!4d-79.8782172>">Frutabar</a>, <a target="_blank" href="https://www.google.com/maps/place/La+Cevicher%C3%ADa+Guayaca+Samborond%C3%B3n/@-2.1413028,-79.866892,19.37z/data=!4m12!1m6!3m5!1s0x0:0x7a18790331c47f89!2sLa+Cevicher%C3%ADa+Guayaca!8m2!3d-2.1750885!4d-79.9054692!3m4!1s0x902d6dc7c27816b3:0xa19fcb1ea3f0bc1c!8m2!3d-2.1408431!4d-79.8668984">Cevicheria Guayaca</a>. For some great plantain bolón head for <a target="_blank" href="https://www.google.com/maps/place/Caf%C3%A9+de+Tere/@-2.1926577,-79.8799421,18.18z/data=!4m12!1m6!3m5!1s0x0:0x7a18790331c47f89!2sLa+Cevicher%C3%ADa+Guayaca!8m2!3d-2.1750885!4d-79.9054692!3m4!1s0x902d6e794bf68997:0xa7cd9a146a5ad3ce!8m2!3d-2.1930325!4d-79.8803713">Café de Tere</a>; nice for drinks in the night and good food <a target="_blank" href="https://www.facebook.com/lapaleta.enlasrocas/">La Paleta</a>.
                   </p>
+                  <video width="100%" controls>
+                    <source src={franci_explaining} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
                 </li>
                 <li>
                   <h5>Olón, ***Wedding location***</h5>

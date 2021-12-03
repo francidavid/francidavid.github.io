@@ -30,6 +30,10 @@ module.exports = {
         loader: 'url-loader'
       },
       {
+        test: /\.(mp4)$/,
+        loader: 'url-loader'
+      },
+      {
         test: /\.less$/,
         use: [
           {
@@ -70,6 +74,7 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'media/img/', to: 'img' },
+      { from: 'media/vid/', to: 'vid' },
       { from: 'fonts/', to: 'fonts' },
       { from: 'favicon.png', to: '' },
     ])
