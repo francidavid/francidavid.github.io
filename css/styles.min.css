@@ -310,9 +310,9 @@ body {
   text-align: center;
 }
 .app___2khK2 .navigation_container___3LNk7 ul {
-  list-style-type: none;
   display: flex;
   justify-content: center;
+  list-style-type: none;
 }
 .app___2khK2 .navigation_container___3LNk7 ul li {
   display: list-item;
