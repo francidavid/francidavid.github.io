@@ -56,7 +56,7 @@ class App extends Component {
       <div className={style.app}>
         <div className={style.top_container}>
           <div className={style.image_container}><img src={top_center_image} alt="" className={style.top_center_image} /></div>
-          <div className={style.updated}>Updated<br />3.12.2021</div>
+          <div className={style.updated}>Updated<br />6.2.2022</div>
           <h3>Fran<span className={style.over}>c</span>esca<br /><img src={amp} className={style.amp} /><br />Da<span className={style.over}>v</span>id</h3>
           <h5>27&middot;02&middot;2022</h5>
           <div className={style.image_container}><img src={left_bottom_image} alt="" className={style.left_bottom_image} /></div>
@@ -69,6 +69,16 @@ class App extends Component {
               <li><a href="#info" className={style.active}>Info</a></li>
               <li><a href="#funfacts" className={style.active}>Fun facts</a></li>
               <li><a href="#mogrotour" className={style.active}>Mogrotour</a></li>
+            </ul>
+          </div>
+        </div>
+        <div className={style.container}>
+          <div className={style.navigation_container}>
+            <ul>
+              <li><a href="https://francidavid-github-io.translate.goog/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=en-US&_x_tr_pto=wapp" className={style.active}>In italiano</a></li>
+              <li><a href="https://francidavid-github-io.translate.goog/?_x_tr_sl=en&_x_tr_tl=fi&_x_tr_hl=en-US&_x_tr_pto=wapp" className={style.active}>En español</a></li>
+              <li><a href="https://francidavid-github-io.translate.goog/?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=en-US&_x_tr_pto=wapp" className={style.active}>Auf Deutsch</a></li>
+              <li><a href="https://francidavid-github-io.translate.goog/?_x_tr_sl=en&_x_tr_tl=fi&_x_tr_hl=en-US&_x_tr_pto=wapp" className={style.active}>Suomeksi</a></li>
             </ul>
           </div>
         </div>
