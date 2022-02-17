@@ -56,7 +56,7 @@ class App extends Component {
       <div className={style.app}>
         <div className={style.top_container}>
           <div className={style.image_container}><img src={top_center_image} alt="" className={style.top_center_image} /></div>
-          <div className={style.updated}>Updated<br />6.2.2022</div>
+          <div className={style.updated}>Updated<br />17.2.2022</div>
           <h3>Fran<span className={style.over}>c</span>esca<br /><img src={amp} className={style.amp} /><br />Da<span className={style.over}>v</span>id</h3>
           <h5>27&middot;02&middot;2022</h5>
           <div className={style.image_container}><img src={left_bottom_image} alt="" className={style.left_bottom_image} /></div>
@@ -86,7 +86,8 @@ class App extends Component {
           <h3 className={style.corn_header + ' ' + style.title}>We are<br />getting<br />married</h3>
           <div className={style.left_container}>
             <div className={style.mobile}><img src={franci_david} alt="Image" className={style.image + ' ' + style.image_franci_david} /></div>
-            <p>We are happy to share with you the beginning of our personal adventure and union with a big party at the beach of Olón on 27 February, 2022 in Ecuador.</p>
+            <p>We are happy to share with you the beginning of our personal adventure and union with a big party at the beach of Olón on Sunday 27 February 2022, at 16:00 at <a href="https://www.instagram.com/villajaco/?hl=en" target="_blank">Villa Jaco</a> (Instagram).</p>
+            <p>You can walk through the beach, or we will have some of our relatives coming to Mariposa Hostel and driving you over. The latter is the best option. Ceremony starts at 16:30 till the 28th midday at least. ;-)</p>
             <p>We love travelling, so if you are coming from afar we are happy to share some Ecuador suggestions under MogroTours.</p>
             <h4 className={style.airplane_header}>Let's celebrate</h4>
             <p>Pack your chanclas, your sombrero, and prepare to party. We will be waiting for you!</p>
@@ -114,7 +115,8 @@ class App extends Component {
           <img src={flower} alt="Image" className={style.image + ' ' + style.flower + ' ' + style.float_right} />
           <p>We suggest you check the US CDC for general vaccine info for Ecuador, it’s very complete. Of course, do check your own country’s recommendations as well.</p>
           <p>- Please note that to attend the wedding you have to be vaccinated for COVID-19.</p>
-          <p>- <strong>UPDATE 30.11.2021 2148 CET</strong>: Vaccinations are now mandatory to enter Ecuador. A PCR test is also mandatory with a validity of 72 hours ahead of travel.</p>
+          <p>- <strong>UPDATE 17.2.2022 1820 CET</strong>: To enter Ecuador by air must present only the vaccination certificate against covid-19, with the complete scheme. This requirement will also apply for entry to the Galapagos Islands. This eliminates the presentation of a PCR or antigen test. <a href="https://www.aviacioncivil.gob.ec/category/noticias/" target="_blank">Check the latest information from here</a>.</p>
+          <p>- <span style={{textDecoration: 'line-through'}}><strong>UPDATE 30.11.2021 2148 CET</strong>: Vaccinations are now mandatory to enter Ecuador. A PCR test is also mandatory with a validity of 72 hours ahead of travel.</span></p>
           <h5>Currency</h5>
           <img src={corn_sparkly} alt="Image" className={style.image + ' ' + style.corn_sparkly + ' ' + style.float_left} />
           <p>Ecuador uses the US dollar. Make sure you get small banknotes, below 100 USD, otherwise people might not accept them.</p>
