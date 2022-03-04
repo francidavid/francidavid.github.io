@@ -56,7 +56,7 @@ class App extends Component {
       <div className={style.app}>
         <div className={style.top_container}>
           <div className={style.image_container}><img src={top_center_image} alt="" className={style.top_center_image} /></div>
-          <div className={style.updated}>Updated<br />17.2.2022</div>
+          <div className={style.updated}>Updated<br />4.3.2022</div>
           <h3>Fran<span className={style.over}>c</span>esca<br /><img src={amp} className={style.amp} /><br />Da<span className={style.over}>v</span>id</h3>
           <h5>27&middot;02&middot;2022</h5>
           <div className={style.image_container}><img src={left_bottom_image} alt="" className={style.left_bottom_image} /></div>
@@ -83,7 +83,7 @@ class App extends Component {
           </div>
         </div>
         <div className={style.container}>
-          <h3 className={style.corn_header + ' ' + style.title}>We are<br />getting<br />married</h3>
+          <h3 className={style.corn_header + ' ' + style.title}>We are married!<br /><br />We love you all!</h3>
           <div className={style.left_container}>
             <div className={style.mobile}><img src={franci_david} alt="Image" className={style.image + ' ' + style.image_franci_david} /></div>
             <p>We are happy to share with you the beginning of our personal adventure and union with a big party at the beach of Olón on Sunday 27 February 2022, at 16:00 at <a href="https://www.instagram.com/villajaco/?hl=en" target="_blank">Villa Jaco</a> (Instagram).</p>
