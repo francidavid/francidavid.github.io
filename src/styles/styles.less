@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: 'Bely';
-  src: local('Bely'), url(./../fonts/Bely.ttf) format('truetype');
+  src: local('Bely'), url(./../font/Bely.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: local('Avenir'), url(./../fonts/Avenir.ttc) format('truetype');
+  src: local('Avenir'), url(./../font/Avenir.ttc) format('truetype');
 }
 body {
   background-color: #f1e6d0;
@@ -182,6 +182,7 @@ body {
       li {
         display: list-item;
         width: 600/6px;
+        margin: 0 5px;
         a {
           color: #cbc0ab;
           cursor: pointer;
@@ -221,7 +222,7 @@ body {
       z-index: 1;
       letter-spacing: 0.05em;
       &:before {
-        background-image: url('./../../img/assets/corn.png');
+        background-image: url('./../assets/img/assets/corn.png');
         background-repeat: no-repeat;
         background-size: 100%;
         content: '';
@@ -238,7 +239,7 @@ body {
       max-width: 600px;
       position: relative;
       &:before {
-        background-image: url('./../../img/assets/wiki.png');
+        background-image: url('./../assets/img/assets/wiki.png');
         background-repeat: no-repeat;
         background-size: 100%;
         content: '';
@@ -348,7 +349,7 @@ body {
         position: relative;
         z-index: 1;
         &:before {
-          background-image: url('./../../img/assets/Asset 7.png');
+          background-image: url('./../assets/img/assets/Asset 7.png');
           background-repeat: no-repeat;
           background-size: 100%;
           content: '';
